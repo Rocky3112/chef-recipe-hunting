@@ -6,7 +6,7 @@ import { AuthCotext } from "../../Provider/AuthProvider";
 import Footer from "../Footer/Footer";
 import ActiveLink from "../ActiveLink/ActiveLink";
 import './Navigation.css'
-
+//this is a navbar with condition
 const Navigation = () => {
   const { user, logOut } = useContext(AuthCotext);
   const [showName, setShowName] = useState(false); 

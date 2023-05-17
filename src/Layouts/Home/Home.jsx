@@ -21,6 +21,8 @@ const Home = () => {
     },
   };
   return (
+
+    //banner
     <div className="my-16">
       <div className="hero h-96" style={styles.background}>
         <div className="hero-overlay bg-opacity-60"></div>
